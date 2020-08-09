@@ -11,5 +11,6 @@ routes.get('/', (req, res) => {
 })
 
 routes.post('/classes', classesController.create)
+routes.get('/classes', classesController.index)
 
 export default routes;
